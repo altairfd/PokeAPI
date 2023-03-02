@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.lista-Tipos {
+    width: 98%;
+    height: 60px;
+    margin: 16px auto 16px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 6px;
+    background-color: orange;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.673);
+}
+
+.tipos {
+    width: 60px;
+    height: 20px;
+    background-color: white;
+    margin-right: 20px;
+    font-size: small;
+    font-weight: bold;
+    border-radius: 6px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.419);
+}
+
+.tipos:hover {
+    background-color: darkcyan;
+    color: white;
+}
+
+.buttons {
+    width: 98%;
+    height: 50px;
+    margin: 16px auto 16px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 6px;
+    background-color: orange;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.673);
+}
+
+.bt {
+    width: 120px;
+    height: 20px;
+    background-color: white;
+    margin-right: 20px;
+    text-align: center;
+    font-size: small;
+    font-weight: bold;
+    border-radius: 6px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.419);
+}
+
+.bt:hover {
+    background-color: darkcyan;
+    color: white;
+}
+
+.poke-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pokes {
+    width: 98%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: orange;
+    border-radius: 6px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.419);
+}
+
+.card {
+    width: 180px;
+    height: 250px;
+    display: flex;
+    margin: 12px;
+    background-color: burlywood;
+    border-radius: 4px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+}
+
+.card:hover {
+    background-color: darkcyan;
+    color: white;
+}
+
+.card img {
+    width: 160px;
+    height: 150px;
+}
+
+.infopoke {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: orange;
+}
+
+.pokePrincipal {
+    text-align: center;
+}
